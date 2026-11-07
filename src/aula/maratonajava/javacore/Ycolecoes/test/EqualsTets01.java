@@ -1,0 +1,13 @@
+package aula.maratonajava.javacore.Ycolecoes.test;
+
+import aula.maratonajava.javacore.Ycolecoes.domain.Smartphone;
+
+public class EqualsTets01 {
+    public static void main(String[] args) {
+        Smartphone s1 = new Smartphone("1a", "iPhone");
+        Smartphone s2 = new Smartphone("1a", "iPhone");
+
+        System.out.println(s1.equals(s2));
+
+    }
+}

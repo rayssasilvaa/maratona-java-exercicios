@@ -1,0 +1,44 @@
+package aula.maratonajava.javacore.Gassociacao.dominio;
+
+public class Seminario {
+    private String titulo;
+    private Aluno[] alunos;
+    private Local local;
+
+    public Seminario(String titulo, Local local) {
+        this.titulo = titulo;
+        this.local = local;
+
+    }
+
+    public Seminario(String titulo, Aluno[] alunos, Local local) {
+        this.titulo = titulo;
+        this.alunos = alunos;
+        this.local = local;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAlunos(Aluno[] alunos) {
+        this.alunos = alunos;
+    }
+
+    public void setLocal(Local local) {
+        this.local = local;
+    }
+
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public Aluno[] getAlunos() {
+        return alunos;
+    }
+
+    public Local getLocal() {
+        return local;
+    }
+}
